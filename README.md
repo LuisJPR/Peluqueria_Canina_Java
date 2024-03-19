@@ -12,8 +12,11 @@
 - **Paso10**: En persistence.xml, clic en Add Class.. y seleccionamos nuestras Clases mapeadas.
 - **Paso11**: Creamos los JpaController para ello, clic derecho en el paquete persistencia, seleccionamos JPA Controller Classes from Entity Classes..., seleccionamos nuestras clases mapeadas y clic en Add All, clic en Next, elegimos como paquete a persistencia y clic en finish.
 - **Paso12**: Agregamos en DuenioJpaController y mascotaJpaController lo siguiente:
+  
  `1. public DuenioJpaController() {`
+
  `2. 		emf = Persistence.createEntityManagerFactory("PeluCaninaPU");`
+ 
  `3. }`
  
 - **Paso13**: En el JFrame de VerDatos, clic derecho en el JFrame principal y elegimos Events->Window->windowOpend (esto es para cuando se habre el JFrame nos cargue los datos a nuestra tabla acorde al evento)
