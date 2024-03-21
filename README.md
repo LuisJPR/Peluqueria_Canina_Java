@@ -18,12 +18,9 @@
  `2.   emf = Persistence.createEntityManagerFactory("PeluCaninaPU");`
  
  `3. }`
- 
-- **Paso13**: En el JFrame de VerDatos, clic derecho en el JFrame principal y elegimos Events->Window->windowOpend (esto es para cuando se habre el JFrame nos cargue los datos a nuestra tabla acorde al evento)
-- **Paso14**: Para crear el JFrame de ModificarDatos, copiamos el JFrame CargaDatos y clic derecho en el paquete igu paste->Refactor Copy.
-## ¿Qué es JPA?
-- **JPA** es un **ORM** (Object Relational Mapping) que tiene como objetivo lograr **la persistencia de datos** entre una aplicacion desarrollada en Java y una base de datos.
-- **JPA** busca **traducir el modelado de las clases Java** a **un modelado relacional en una base de datos**, posibilitando al programador elegir que clases u objetos quiere persistir.
-## ¿Como funciona JPA?
-- **JPA** se vale de una serie de **mapeos** que se deben realizar sobre cada uno de los elementos de una clase, los mismos, se representan mediante **annotations(@)**.
-- **JPA** cuenta con **proveedores de JPA**, entre ellos: **Eclipselink**, **Hibernate**, **Toplink**, entre otros.
+### Modelo de capas
+ ![](img/modeloDeCapas.png)
+### Capturas
+ ![](img/inicio.png)
+ ![](img/cargaDatos.png)
+ ![](img/verDatos.png)
