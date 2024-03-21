@@ -15,7 +15,7 @@
   
  `1. public DuenioJpaController() {`
 
- `2. 		emf = Persistence.createEntityManagerFactory("PeluCaninaPU");`
+ `2.   emf = Persistence.createEntityManagerFactory("PeluCaninaPU");`
  
  `3. }`
  
